@@ -5,5 +5,5 @@ import { Component } from '@angular/core';
   template: ` <toolbar-element *axLazyElement="elementUrl"> </toolbar-element>`,
 })
 export class HeaderComponent {
-  elementUrl = 'http://localhost:8082/main.js';
+  elementUrl = 'https://cdn.jsdelivr.net/gh/leobarberis/TableWebComponentSharedLibraries/toolbar.js';
 }

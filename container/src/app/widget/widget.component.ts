@@ -17,7 +17,7 @@ export interface PeriodicElement {
   </widget-element>`,
 })
 export class WidgetComponent {
-  elementUrl = 'http://localhost:8081/main.js';
+  elementUrl = 'https://cdn.jsdelivr.net/gh/leobarberis/TableWebComponentSharedLibraries/widget.js';
 
   dataSource: PeriodicElement[] = [
     { position: 1, name: 'Hydrogen', weight: 1.0079, symbol: 'H' },
